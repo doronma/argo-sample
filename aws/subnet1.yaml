@@ -12,10 +12,10 @@ spec:
     tags:
       - key: Environment
         value: Production
-      - key: Name
-        value: cp-subnet-1
       - key: Owner
         value: Pavan
+      - key: Name
+        value: cp-subnet-1
     mapPublicIPOnLaunch: true
   providerConfigRef:
     name: default
