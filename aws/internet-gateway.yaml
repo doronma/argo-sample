@@ -1,0 +1,11 @@
+apiVersion: ec2.aws.crossplane.io/v1beta1
+kind: InternetGateway
+metadata:
+  name: cp-internetgateway
+spec:
+  forProvider:
+    region: eu-central-1
+    vpcIdRef:
+      name: cp-vpc
+  providerConfigRef:
+    name: default
