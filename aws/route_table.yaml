@@ -1,7 +1,7 @@
 apiVersion: ec2.aws.crossplane.io/v1alpha4
 kind: RouteTable
 metadata:
-  name: cs-routetable
+  name: cp-routetable
 spec:
   forProvider:
     region: eu-central-1
@@ -14,6 +14,13 @@ spec:
           name: cp-subnet-1
       - subnetIdRef:
           name: cp-subnet-2
+    tags:
+      - key: Environment
+        value: Production
+      - key: Owner
+        value: Pavan
+      - key: Name
+        value: cp-routetable
     vpcIdRef:
       name: cp-vpc
   providerConfigRef:
