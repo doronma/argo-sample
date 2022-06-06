@@ -12,10 +12,11 @@ spec:
     tags:
       - key: Environment
         value: Production
-      - key: Owner
-        value: Pavan
       - key: Name
         value: cp-access-sg
+      - key: Owner
+        value: Pavan
+
     ingress:
       - fromPort: 3306
         toPort: 3306
