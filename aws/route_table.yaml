@@ -17,10 +17,10 @@ spec:
     tags:
       - key: Environment
         value: Production
-      - key: Owner
-        value: Pavan
       - key: Name
         value: cp-routetable
+      - key: Owner
+        value: Pavan
     vpcIdRef:
       name: cp-vpc
   providerConfigRef:

@@ -10,9 +10,9 @@ spec:
     tags:
       - key: Environment
         value: Production
-      - key: Owner
-        value: Pavan
       - key: Name
         value: cp-internetgateway
+      - key: Owner
+        value: Pavan
   providerConfigRef:
     name: default
