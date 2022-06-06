@@ -13,6 +13,6 @@ spec:
       - key: Owner
         value: Pavan
       - key: Name
-        value: cp-internetgateway
+        value: cp-vpc
   providerConfigRef:
     name: default
