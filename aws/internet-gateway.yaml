@@ -7,5 +7,12 @@ spec:
     region: eu-central-1
     vpcIdRef:
       name: cp-vpc
+    tags:
+      - key: Environment
+        value: Production
+      - key: Owner
+        value: Pavan
+      - key: Name
+        value: cp-internetgateway
   providerConfigRef:
     name: default

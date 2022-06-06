@@ -16,3 +16,5 @@ spec:
       - key: Name
         value: cp-vpc
     instanceTenancy: default
+    providerConfigRef:
+    name: default
